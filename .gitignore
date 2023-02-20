@@ -1,0 +1,14 @@
+# Archivos de configuración de Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+
+# Archivos generados por IDEs
+.idea/
+.vscode/
+
+# Directorios generados automáticamente
+node_modules/
+venv/
