@@ -90,8 +90,13 @@ WSGI_APPLICATION = 'djangoServer.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        
+        'ENGINE': 'djongo',
+        'CLIENT':{
+            "host":'mongodb+srv://stored754:38195219H@stored.nzjf4zf.mongodb.net/?retryWrites=true&w=majority',
+            "name":'stored',
+            "authMechanism":'SCRAM-SHA-1'
+        }
     }
 }
 
