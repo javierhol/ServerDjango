@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  db:
+    image: mongo:5
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${USERNAME}
+      MONGO_INITDB_ROOT_PASSWORD: ${PASSWORD}
+    container_name: djangodb
+    volumes:
+      - ./mongo-data:/data/db
+    ports:
+      - 27017:27017

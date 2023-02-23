@@ -12,3 +12,5 @@ local_settings.py
 # Directorios generados automáticamente
 node_modules/
 venv/
+mongo-data/
+db.sqlite/

@@ -38,11 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'productManagement',
-    'invetoryManagement',
+    'inventoryManagement',
     'reportManagement',
     'administrationManagement', 
-    'rest_framework',
-    'corsheaders'
+   ## 'rest_framework',
+    ##'corsheaders'
 ]
 
 CORS_ORIGIN_ALLOW_ALL= False
